@@ -9,29 +9,29 @@
 
 ** Data Preprocessing **
 
-1. What variable(s) are considered the target(s) for your model?
+1.What variable(s) are considered the target(s) for your model?
 
-The target variable I chose was *IS_SUCCESSFUL*
+ The target variable I chose was *IS_SUCCESSFUL*
 
-2. What variable(s) are considered to be the features for your model?
+2.What variable(s) are considered to be the features for your model?
 
-All columns except IS_SUCCESSFUL
+ All columns except IS_SUCCESSFUL
 
-3. What variable(s) are neither targets nor features, and should be removed form the input data?
+3.What variable(s) are neither targets nor features, and should be removed form the input data?
 
-*EIN* column and *NAME* are neither targets nor features and therefore were removed from the input data. 
+ *EIN* column and *NAME* are neither targets nor features and therefore were removed from the input data. 
 
 ** Compiling, Training, and Evaluating the Model **
 
-1. How many neurons, layers, and activation functions did you select for your neural      network model, and why?
+1.How many neurons, layers, and activation functions did you select for your neural      network model, and why?
 
-Two additional layers were added and the number of decreased to 20 for the third layer and 10 for the fourth. Since the neurons for the first are 80 and second 30 and the accuracy and loss were low, reducing the number of neurons could increase the percentages. 
+ Two additional layers were added and the number of decreased to 20 for the third layer and 10 for the fourth. Since the neurons for the first are 80 and second 30 and the accuracy and loss were low, reducing the number of neurons could increase the percentages. 
 
 ![added_layers](Images/added_layers.png)
 
-2. Were you able to achieve the target model performance?
+2.Were you able to achieve the target model performance?
 
-No, the closest I got was 64% accuracy.
+ No, the closest I got was 64% accuracy.
 
 ![second_train](Images/second_train.png)
 
